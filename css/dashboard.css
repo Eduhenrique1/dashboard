@@ -1,0 +1,17 @@
+div.flex-dashboard{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+sidebar{
+    display: block;
+    width: 200px;
+    background-color: #013750;
+    height: 100vh;
+}
+
+p{
+    color: white;
+}
+
