@@ -8,5 +8,121 @@ sidebar{
     display: block;
     width: 200px;
     background-color: #013750;
-    height: 100vh;
+    height: 100%;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+    margin: 20px 0px 30px 0px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.intro{
+    width: 100%;
+    height: 50px;
+}
+
+.intro h2{
+    font-size: 11pt;
+    color: #ffff;
+    text-transform: uppercase;
+}
+.intro span::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    width: 16%;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+}
+
+ul{
+    margin: 10px;
+}
+
+ul li{
+    margin: 10px;
+    list-style: none;
+    color: #ffff;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+}
+
+ul li a:active{
+    color: #013750;
+    background-color: black;
+}
+
+.ativado{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.admin{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.admin h2{
+    font-size: 11pt;
+    color: #ffff;
+    text-transform: uppercase;
+}
+.admin span::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    width: 16%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logout{
+    width: 50%;
+    height: auto;    
+}
+
+.logout button{
+    width: 45px;
+    padding: 0 ;
+    font-size: 10px;
+    margin-top: 100px;
+    background-color: darkred;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+
+
+}
+
+.terms{
+    font-size: 10px;
+    margin-top: 90px;
+    width: 45px;
+    padding: 0 ;
+    color: white;
+}
+
+main{
+    display: block;
+    height: 100%;
+    width: calc(100% - 200px);
 }

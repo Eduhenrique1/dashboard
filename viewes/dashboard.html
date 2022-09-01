@@ -5,22 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css", integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9", crossorigin="anonymous")>
     <link rel="stylesheet" href="../css/all.css">
     <title>Dashboard</title>
 </head>
 <body>
    <div class="flex-dashboard">
         <sidebar>
-            div.
+            <div class="logo">
+                <img src="/images/LOGO ZEVALUS FUNDO TRASNPARENTE.fw.png" alt="">
+            </div>
+            <div class="intro">
+                    <h2>Dashboard</h2>
+                    <span></span>
+            </div>
             <div class="content">
                 <ul>
-                    <li> <i class="fa-solid fa-database"></i>consultas</li>
+                    <div class="ativado">
+                        <li>
+                            <i class="fa-solid fa-database" id="active" >
+                            </i>
+                            <a href="/viewes/consulta.html">Consultas</a>
+                        </li>
+                    </div>
+                    <li>
+                        <i class="fa-solid fa-database">
+                            <a href="/viewes/proposta.html">Propostas</a></i>
+                        </li>
+                    <li>
+                        <i class="fa-solid fa-database">
+                            <a href="/viewes/clientes.html">Clientes</a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database">
+                            <a href="/viewes/callcenter.html">Call Center</a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database">
+                            <a href="/viewes/relatorio.html">Relatorios</a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database">
+                            <a href="/viewes/financeiro.html">Financeiros</a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database">
+                            <a href="/viewes/integracoes.html">Integrações</a>
+                        </i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database">
+                            <a href="/viewes/proposta.html">propostas</a>
+                        </i>
+                    </li>
                 </ul>
+                <div class="admin">
+                    <h2>Administrativo</h2>
+                    <span></span>
+            </div>
+            <div class="footer">
+                <div class="logout">
+                    <button>Logout</button>
+                </div>
+                <div class="terms">
+                    Terms of Services
+                </div>
+            </div>
             </div>
         </sidebar>
    </div>
+
 </body>
 </html>
